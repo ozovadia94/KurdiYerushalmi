@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+	<title>כורדי ירושלמי</title>
+</head>
+<body>
+	<nav class="navbar navbar-default ">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="logo">
+				</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1"  dir="rtl">
+				<ul class="nav navbar-nav ">
+					<li><a href="contact-us.html">צור קשר</a></li>
+					<li><a href="daholazurne.html">דהולה וזורנה</a></li>
+					<li><a href="team.html">חברי ההרכב</a></li>
+					<li><a href="gallery.html">גלריה</a></li>
+					<li class="active"><a href="about.html">אודות</a></li>
+					<li><a href="index.html">דף הבית</a></li>
+				</ul>  
+			</div><!-- /.navbar-collapse -->
+			
+		</div><!-- /.container-fluid -->
+	</nav>
+
+	<section class="banner-wrapper"  dir="rtl">
+		<div class="container">
+			<div class="row">
+				<div class="banner-detaile">
+					<h1>חברי ההרכב<strong>כורדי ירושלמי</strong></h1>
+					<p>עופר בניטה</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="band-members-wrapper single-member">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="band-member-img">
+						<img src="images/team/04.jpg" alt="band-members">
+					</div>
+					<div class="single-member-details" dir="rtl">
+						<h4>עופר בניטה</h4>
+						<p>האיש והקצב. ליווה אומנים רבים ובסגנונות מגוונים (הברירה הטבעית, הלווים ועוד).
+							מנגן על תופים, כלי הקשה וסנטור. נגינתו המשלבת בין עולמות מזרח ומערב יוצרת סאונד מיוחד.</p>
+							<a href="team.html" class="btn-main">חברי ההרכב</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="copyright-wrappre">
+					<p>Copyright © 2018 <strong>kurdi</strong> .All Right Reserved</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/smooth.js"></script>     
+	<script type="text/javascript">
+		$(window).scroll(function() {
+			if($(this).scrollTop() > 0) {
+				$( ".navbar-default" ).addClass("fix-nav");
+			} else {
+				$( ".navbar-default" ).removeClass("fix-nav");
+			}
+		});
+	</script>
+</body>
+</html>

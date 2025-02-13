@@ -1,0 +1,686 @@
+@media (min-width: 1921px) and (max-width:2560px){
+	.about-info {
+	    margin-top: 100px;
+	}
+	.owl-img img{
+		height: 270px;
+	}
+	.slider-block{
+		height: 590px;
+		background-size: cover;
+	}
+	.banner-wrapper{
+		background-size: cover;
+	}
+}
+@media (min-width:1369px) and (max-width:1920px){
+	.about-info {
+	    margin-top: 70px;
+	}
+	.owl-img img{
+		height: 270px;
+	}
+	.slider-block{
+		height: 590px;
+		background-size: cover;
+	}
+	.banner-wrapper{
+		background-size: cover;
+	}
+}
+@media (min-width:1024px) and (max-width:1200px){
+	/*nav bar*/
+	.navbar-default .navbar-nav{
+		margin-top: 35px;
+	}
+	.navbar-default .navbar-nav>li>a{
+		margin-right: 45px;
+	}
+
+	/*banner section*/
+	.banner-container .banner-detail{
+		background-size: 92% 320px; 
+	}
+	.banner-container .banner-detail h1{
+		font-size: 30px;
+	}
+	.banner-container .banner-detail h1 span{
+		font-size: 16px;
+	}
+	.banner-container .banner-detail p{
+		font-size: 14px;
+		width: 80%;
+	}
+	.btn-main{
+		font-size: 14px;
+	}
+	.banner-container .banner-detail .btn-main span{
+		background: #fff; 
+	}
+	.banner-container .banner-detail .btn-main span:before {
+    	background: #fff;
+    	right: 0;
+	}
+	.banner-container .banner-detail .btn-main span:after{
+		right: -15px;
+	}
+	
+	/*about-container*/
+	.band-members-wrapper,
+	.contact-form,
+	.our-gallery,
+	.about-container {
+    	padding: 50px 0;
+	}
+	h1{
+		font-size: 24px;
+		line-height: 28px;
+		margin-bottom: 25px;
+	}
+	.about-info {
+    	margin-top: 100px;
+	}
+	.about-info p{
+		font-size: 15px;
+		text-align: center;
+		line-height: 24px;
+		margin-bottom: 20px;
+	}
+	.about-info .btn-main{
+		margin: 0 auto;
+		display: table;
+	}
+	.btn-main span:after{
+		right: -15px;
+	}
+	.btn-main span:before {
+    	right: 0;
+	}
+	.about-img{
+		margin-top: 50px;
+	}
+
+	/*our-gallery*/
+	.our-gallery .margin-b{
+		margin-bottom: 14px;
+	}
+
+	/*owl carousel*/
+	.owl-img img{
+		height: 180px;
+	}
+	/*contact form*/
+	.contact-form-wraper{
+		width: 80%;
+	}
+	.contact-form-wraper .form-group .form-control{
+		font-size: 14px;
+	}
+	.contact-form-wraper .form-group .btn-main{
+		font-size: 14px;
+	}
+
+	/*footer*/
+	.copyright-wrappre p{
+		font-size: 13px;
+	}
+
+	/*about page*/
+	.banner-wrapper{
+		padding: 50px 0;
+		height: auto;
+		background-position: center center;
+		background-size: cover;
+	}
+	.banner-wrapper:after{
+		background: rgba(0,0,0,0.6);
+	}
+	.banner-wrapper h1{
+		font-size: 22px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.banner-detaile p{
+		font-size: 14px;
+		text-align: center;
+		width: 85%;
+		display: table;
+		margin: 0 auto;
+	}
+	.video-frame .about-info{
+		margin-bottom: 50px;
+	}
+	.our-carousel-wrapper h1{
+		text-align: center;
+	}
+
+	/*contest page*/
+	.band-member-name{
+		width: 100%;
+		height: auto;
+		padding: 20px 0;
+		margin: 30px auto;
+	}
+	.band-member-img img{
+		width: 150px;
+		height: 150px;
+	}
+	.team-member-detail h4, .single-member-details h4, .band-member-name h4{
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	.team-member-detail span, .band-member-name p{
+		font-size: 13px;
+	}
+	.band-member-name:after{
+		left: 42%;
+	}
+	.banner-container .banner-detail{
+		margin-top: 17%;
+	}
+
+	/*single-member page*/
+	.single-member{
+		padding: 50px 0;
+	}
+	.single-member-details h4{
+		margin: 25px auto;
+	}
+	.single-member-details p{
+		font-size: 20px;
+		width: 100%;
+		text-align: center;
+		margin: 0 0 50px;
+		line-height: 30px;
+	}
+	.single-member-details .btn-main{
+		margin: 0 auto 20px;
+		font-size: 16px;
+	}
+
+	/*team*/
+	.team-container{
+		padding: 50px 0;
+	}
+	.team-img img{
+		width: 100%;
+	}
+	.team-block-right .col-md-9, .team-block-left .col-md-9{
+		width: 70%;
+	}
+	.team-block-right .col-md-3, .team-block-left .col-md-3{
+		width: 30%;
+	}
+	.team-container .team-member-detail p{
+		margin: 20px 0 17px;
+	}
+
+	/*gallery page*/
+	.gallery-container .filter-button{
+		margin-bottom: 15px;
+		font-size: 16px;
+	}
+	.gallery_product img{
+		height: 280px;
+	}
+}
+@media (min-width:768px) and (max-width:1023px){
+	/*nav bar*/
+	.navbar-default .navbar-nav{
+		margin-top: 35px;
+	}
+	.navbar-default .navbar-nav>li>a{
+		margin-right: 25px;
+	}
+	/*banner section*/
+	.banner-container .banner-detail{
+		background-image: none;
+		padding: 40px;
+		margin: 17% 0 0;
+		height: auto;
+		background: rgba(0,0,0,0.6);
+	}
+	.banner-container .banner-detail h1{
+		font-size: 30px;
+		text-align: left;
+	}
+	.banner-container .banner-detail h1 span{
+		text-align: left;
+		font-size: 16px;
+	}
+	.banner-container .banner-detail p{
+		text-align: left;
+		font-size: 14px;
+		width: 80%;
+	}
+	.btn-main{
+		font-size: 14px;
+	}
+	.banner-container .banner-detail .btn-main span{
+		background: #fff; 
+	}
+	.banner-container .banner-detail .btn-main span:before {
+    	background: #fff;
+    	right: 0;
+	}
+	.banner-container .banner-detail .btn-main span:after{
+		right: -15px;
+	}
+	.slider-pager{
+		bottom: 48%;
+	}
+	
+	/*about-container*/
+	.band-members-wrapper,
+	.contact-form,
+	.our-gallery,
+	.about-container {
+    	padding: 50px 0;
+	}
+	h1{
+		font-size: 24px;
+		line-height: 28px;
+		margin-bottom: 25px;
+	}
+	.about-info {
+    	margin-top: 20px;
+	}
+	.about-info p{
+		font-size: 15px;
+		text-align: center;
+		line-height: 24px;
+		margin-bottom: 20px;
+	}
+	.about-info .btn-main{
+		margin: 0 auto;
+		display: table;
+	}
+	.btn-main span:after{
+		right: -15px;
+	}
+	.btn-main span:before {
+    	right: 0;
+	}
+	.about-img{
+		margin-top: 50px;
+	}
+
+	/*our-gallery*/
+	.our-gallery .margin-b{
+		margin-bottom: 14px;
+	}
+	/*contact form*/
+	.contact-form-wraper{
+		width: 80%;
+	}
+	.contact-form-wraper .form-group .form-control{
+		font-size: 14px;
+	}
+	.contact-form-wraper .form-group .btn-main{
+		font-size: 14px;
+	}
+
+	/*footer*/
+	.copyright-wrappre p{
+		font-size: 13px;
+	}
+
+	/*about page*/
+	.banner-wrapper{
+		padding: 50px 0;
+		height: auto;
+		background-position: center center;
+		background-size: cover;
+	}
+	.banner-wrapper:after{
+		background: rgba(0,0,0,0.6);
+	}
+	.banner-wrapper h1{
+		font-size: 22px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.banner-detaile p{
+		font-size: 14px;
+		text-align: center;
+		width: 85%;
+		display: table;
+		margin: 0 auto;
+	}
+	.video-frame .about-info{
+		margin-bottom: 50px;
+	}
+	.our-carousel-wrapper h1{
+		text-align: center;
+	}
+
+	/*contest page*/
+	.band-member-name{
+		width: 100%;
+		height: auto;
+		padding: 20px 0;
+		margin: 30px auto;
+	}
+	.team-member-detail h4, .single-member-details h4, .band-member-name h4{
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	.team-member-detail span, .band-member-name p{
+		font-size: 13px;
+	}
+	.band-member-name:after{
+		left: 42%;
+	}
+
+	/*single-member page*/
+	.single-member{
+		padding: 50px 0;
+	}
+	.single-member-details h4{
+		margin: 25px auto;
+	}
+	.single-member-details p{
+		font-size: 20px;
+		width: 100%;
+		text-align: center;
+		margin: 0 0 50px;
+		line-height: 30px;
+	}
+	.single-member-details .btn-main{
+		margin: 0 auto 20px;
+		font-size: 16px;
+	}
+
+	/*team*/
+	.team-container{
+		padding: 50px 0;
+	}
+	.team-member-detail{
+		padding: 8px 20px;
+	}
+	.team-img img{
+		width: 100%;
+	}
+	.team-block-right .col-md-9, .team-block-left .col-md-9{
+		width: 70%;
+	}
+	.team-block-right .col-md-3, .team-block-left .col-md-3{
+		width: 30%;
+	}
+	.team-container .team-member-detail h4{
+		margin-bottom: 0;
+	}
+	.team-container .team-member-detail p{
+		font-size: 14px;
+		margin: 5px 0 10px;
+	}
+	.team-container .team-member-detail span{
+		font-size: 12px;
+		margin-bottom: 0;
+	}
+	.team-container .social-media{
+		margin: 15px 0 5px;
+	}
+	.team-container .social-media ul li a i{
+		font-size: 14px;
+	}
+
+	/*gallery page*/
+	.gallery-container .filter-button{
+		margin-bottom: 15px;
+		font-size: 16px;
+	}
+	.gallery_product img{
+		height: 200px;
+	}
+}
+@media (min-width:320px) and (max-width:767px){
+	/*nav bar*/
+	.navbar-brand{
+		padding: 0;
+		margin-left: 20px;
+	}
+	.navbar-brand>img{
+		width: 70px;
+		padding: 5px 0;
+	}
+	.navbar-default .navbar-toggle:focus{
+		background-color: transparent;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+		border-color: #632501;
+	}
+	.navbar-default .navbar-toggle{
+		margin-top: 15px;
+		border-color: #632501;
+	}
+	.navbar-nav{
+		margin: 10px 0;
+		float: none;
+	}
+	.nav>li{
+		text-align: center;
+	}
+	.navbar-default .navbar-nav>li>a{
+		margin: 5px 0;
+		padding: 5px 0;
+	}
+
+	/*banner section*/
+	.slider-block{
+		position: relative;
+		z-index: 1;
+		width: 100%;
+		height: 432px;
+		overflow: hidden;
+	}
+	.slider-block:after{
+		content: '';
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.4);
+	}
+	.banner-container .banner-detail{
+		margin-top: 0;
+		padding: 80px 0;
+		background: none;
+	}
+	.banner-container .banner-detail h1{
+		font-size: 26px;
+		text-align: center;
+	}
+	.banner-container .banner-detail h1 span{
+		text-align: center;
+		font-size: 16px;
+	}
+	.banner-container .banner-detail p{
+		text-align: center;
+		font-size: 14px;
+		width: 100%;
+	}
+	.banner-container .banner-detail .btn-main{
+		margin: 0 auto;
+		display: table;
+	}
+	.banner-container .banner-detail .btn-main span{
+		background: #fff; 
+	}
+	.banner-container .banner-detail .btn-main span:before {
+    	background: #fff;
+    	right: 0;
+	}
+	.banner-container .banner-detail .btn-main span:after{
+		right: -15px;
+	}
+	.banner-container .slider-pager{
+		bottom: 5%;
+		right: 40%;
+	}
+	.banner-container .slider-pager span{
+		float: left;
+		display: block;
+		margin: 0 5px;
+	}
+	
+	/*about-container*/
+	.band-members-wrapper,
+	.contact-form,
+	.our-gallery,
+	.about-container {
+    	padding: 30px 0;
+	}
+	h1{
+		font-size: 24px;
+		line-height: 28px;
+		margin-bottom: 25px;
+	}
+	.about-info {
+    	margin-top: 0px;
+	}
+	.about-info p{
+		font-size: 15px;
+		text-align: center;
+		line-height: 24px;
+		margin-bottom: 20px;
+	}
+	.about-info .btn-main{
+		margin: 0 auto;
+		display: table;
+	}
+	.btn-main span:after{
+		right: -15px;
+	}
+	.btn-main span:before {
+    	right: 0;
+	}
+	.about-img{
+		margin-right: 0;
+		margin-top: 30px;
+	}
+
+	/*our-gallery*/
+	.our-gallery .margin-b{
+		margin-bottom: 0;
+	}
+	.our-gallery .gallery-img {
+		margin-bottom: 25px;
+	}
+	/*contact form*/
+	.contact-form-wraper{
+		width: 80%;
+	}
+	.contact-form-wraper .form-group .form-control{
+		font-size: 14px;
+	}
+	.contact-form-wraper .form-group .btn-main{
+		font-size: 14px;
+	}
+
+	/*footer*/
+	.copyright-wrappre p{
+		font-size: 13px;
+	}
+
+	/*about page*/
+	.banner-wrapper{
+		padding: 80px 0;
+		height: auto;
+		background-position: center center;
+		background-size: cover;
+	}
+	.banner-wrapper:after{
+		background: rgba(0,0,0,0.6);
+	}
+	.banner-wrapper h1{
+		font-size: 22px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.banner-detaile p{
+		font-size: 14px;
+		text-align: center;
+		width: 85%;
+		display: table;
+		margin: 0 auto;
+	}
+	.video-frame .about-img{
+		margin-bottom: 30px;
+	}
+	.our-carousel-wrapper h1{
+		text-align: center;
+	}
+
+	/*contest page*/
+	.band-member-name{
+		width: 100%;
+		margin: 30px auto;
+	}
+
+	/*single-member page*/
+	.single-member{
+		padding: 50px 0;
+	}
+	.single-member-details h4{
+		margin: 25px auto;
+	}
+	.single-member-details p{
+		font-size: 20px;
+		width: 100%;
+		text-align: center;
+		margin: 0 0 50px;
+		line-height: 30px;
+	}
+	.single-member-details .btn-main{
+		margin: 0 auto 20px;
+		font-size: 16px;
+	}
+
+	/*team*/
+	.team-container{
+		padding: 50px 0;
+	}
+	.team-block-right .col-md-9, .team-block-left .col-md-9,
+	.team-block-right .col-md-3, .team-block-left .col-md-3{
+		width: 100%;
+		padding: 0 20px;
+	}
+	.team-img img{
+		width: 100%;
+	}
+	.team-block-right .team-member-detail h4,
+	.team-block-right .team-member-detail{
+		text-align: left;
+	}
+
+	/*contact page*/
+	.social-contact {
+    	padding: 30px 0;
+	}
+	.social-contact-block{
+		margin-bottom: 40px;
+	}
+
+	/*gallery page*/
+	.gallery-container .filter-button{
+		margin-bottom: 15px;
+		font-size: 16px;
+	}
+	.gallery_product img{
+		height: auto;
+	}
+	.gallery-container .m-b-0{
+		margin-bottom: 30px;
+	}
+	.gallery-container .m-b-0:last-child{
+		margin-bottom: 0;
+	}
+}
+
+
+
+
+ 
