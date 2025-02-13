@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,32 +8,52 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<link rel="stylesheet" type="text/css" href="css/responsive.css" />
-	<link rel='icon' type="image/png" href="./images/logo.png" />
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/smooth.js"></script>
-	<script type="text/javascript" src="js/pages.js"></script>
 	<title>כורדי ירושלמי</title>
 </head>
+<body>
+	<nav class="navbar navbar-default ">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="logo">
+				</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1"  dir="rtl">
+				<ul class="nav navbar-nav ">
+					<li><a href="contact-us.html">צור קשר</a></li>
+					<li><a href="daholazurne.html">דהולה וזורנה</a></li>
+					<li class="active"><a href="team.html">חברי ההרכב</a></li>
+					<li><a href="gallery.html">גלריה</a></li>
+					<li><a href="about.html">אודות</a></li>
+					<li><a href="index.html">דף הבית</a></li>
+				</ul>  
+			</div><!-- /.navbar-collapse -->
+			
+		</div><!-- /.container-fluid -->
+	</nav>
 
-<body onload="load_func()">
-	<div id="page_name">team</div>
-	<div id="page_navbar"></div>
-
-	<section class="banner-wrapper" dir="rtl">
+	<section class="banner-wrapper"  dir="rtl">
 		<div class="container">
 			<div class="row">
 				<div class="banner-detaile">
-					<h1 >חברי ההרכב<strong>כורדי ירושלמי</strong></h1>
+					<h1>חברי ההרכב<strong>כורדי ירושלמי</strong></h1>
 					<p>אודות חברי ההרכב</p>
 				</div>
 			</div>
 		</div>
 	</section>
-
-	<section class="team-container">
+	
+	<section  class="team-container">
 		<div class="container">
-			<h1 class="second_title">אנסמבל</h1>
+			<h1>אנסמבל</h1>
 			<div class="row">
 				<div class="team-block-left">
 					<div class="col-md-3 col-sm-3">
@@ -49,6 +68,7 @@
 							<p>ממשפחה כורדית ירושלמית שורשית. פייטן, זמר, נגן: סאז, בגלמה וזורנה. מנהל להקת
 								מחול מסורתית "צעירי כורדיסטאן", מנהל להקת "כורדי ירושלמי", פעיל במסגרת הארגון הארצי של
 								עולי כורדיסטאן בישראל.</p>
+							<a href="yaniv-ovadia.html" class="btn-simple">קרא עוד</a>
 						</div>
 					</div>
 				</div>
@@ -60,6 +80,7 @@
 							<p>מנגן בסאז ובגיטרה רבעים. השתתף בעבר והיום
 								בעשרות פרויקטים של שילוב מוזיקת מזרח - מערב בארץ ובחו"ל (הברירה הטבעית, אנסמבל היונה,
 								ברי סחרוף, הלויים ועוד).</p>
+							<a href="eliyahu-dagmi.html" class="btn-simple">קרא עוד</a>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-3">
@@ -82,6 +103,7 @@
 							<span>נגן בס המתמחה במוסיקה אתנית &amp; פלמנקו</span>
 							<p>משלב בנגינתו רבעי טונים עם טכניקות
 								נגינה מספרד, מתגורר ויוצר בירושלים.</p>
+							<a href="eran-horwitz.html" class="btn-simple">קרא עוד</a>
 						</div>
 					</div>
 				</div>
@@ -91,8 +113,8 @@
 							<h4>עופר בניטה</h4>
 							<span>האיש והקצב</span>
 							<p>האיש והקצב. ליווה אומנים רבים ובסגנונות מגוונים (הברירה הטבעית, הלווים ועוד).
-								מנגן על תופים, כלי הקשה וסנטור. נגינתו המשלבת בין עולמות מזרח ומערב יוצרת סאונד מיוחד.
-							</p>
+								מנגן על תופים, כלי הקשה וסנטור. נגינתו המשלבת בין עולמות מזרח ומערב יוצרת סאונד מיוחד.</p>
+							<a href="ofer-benita.html" class="btn-simple">קרא עוד</a>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-3">
@@ -110,11 +132,12 @@
 						</div>
 					</div>
 					<div class="col-md-9 col-sm-9">
-						<div class="team-member-detail" dir="rtl">
+						<div class="team-member-detail" style="text-align: right;">
 							<h4>עוז עובדיה</h4>
-							<span>הצעיר שבחבורה, מנגן בחלילים, כלי הקשה וקלידים</span>
+							<span>הצעיר שבחבורה, מנגן בחלילים, כלי הקשה וקלידים.</span>
 							<p>משמר את המסורת הכורדית
 								עליה גדל בבית הוריו ואף מנעים בקולו הערב עם מגוון שירים.</p>
+							<a href="oz-ovadia.html" class="btn-simple">קרא עוד</a>
 						</div>
 					</div>
 				</div>
@@ -131,5 +154,17 @@
 			</div>
 		</div>
 	</section>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/smooth.js"></script>     
+	<script type="text/javascript">
+		$(window).scroll(function() {
+			if($(this).scrollTop() > 0) {
+				$( ".navbar-default" ).addClass("fix-nav");
+			} else {
+				$( ".navbar-default" ).removeClass("fix-nav");
+			}
+		});
+	</script>
 </body>
 </html>

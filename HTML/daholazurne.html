@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+	<title>כורדי ירושלמי</title>
+</head>
+<body>
+	<nav class="navbar navbar-default ">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="logo">
+				</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1"  dir="rtl">
+				<ul class="nav navbar-nav ">
+					<li><a href="contact-us.html">צור קשר</a></li>
+					<li class="active"><a href="daholazurne.html">דהולה וזורנה</a></li>
+					<li><a href="team.html">חברי ההרכב</a></li>
+					<li><a href="gallery.html">גלריה</a></li>
+					<li><a href="about.html">אודות</a></li>
+					<li><a href="index.html">דף הבית</a></li>
+				</ul>  
+			</div><!-- /.navbar-collapse -->
+			
+		</div><!-- /.container-fluid -->
+	</nav>
+
+	<section class="banner-wrapper"  dir="rtl">
+		<div class="container">
+			<div class="row">
+				<div class="banner-detaile">
+					<h1>דהולה וזורנה<strong>כורדי ירושלמי</strong></h1>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="band-members-wrapper">
+		<div class="container">
+			<h1>חברי הצוות</h1>
+			<div class="row">
+				<div class="col-md-4 col-sm-4">
+					<div class="band-member-img">
+						<img src="images/team/daholazurne02.jpg" alt="band-members">
+					</div>
+					<div class="band-member-name">
+						<h4>עוז עובדיה</h4>
+						<p>דהולה</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="band-member-img">
+						<img src="images/team/daholazurne.jpg" alt="band-members">
+					</div>
+					
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="band-member-img">
+						<img src="images/team/daholazurne01.jpg" alt="band-members">
+					</div>
+					<div class="band-member-name">
+						<h4>יניב עובדיה</h4>
+						<p>זורנה</p>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</section>
+
+	<section class="our-carousel-wrapper">
+		<div class="container-fluid">
+			<div class="our-carousel">
+				<div class="owl-caurosel" id="owl-demo">
+					<div class="item">
+						<div class="owl-img">
+							<img src="images/owl-galley/owl-img-1.jpg" alt="owl-galley">
+						</div>
+					</div>
+					<div class="item">
+						<div class="owl-img">
+							<img src="images/owl-galley/owl-img-2.jpg" alt="owl-galley">
+						</div>
+					</div>
+					<div class="item">
+						<div class="owl-img">
+							<img src="images/owl-galley/owl-img-3.jpg" alt="owl-galley">
+						</div>
+					</div>
+					<div class="item">
+						<div class="owl-img">
+							<img src="images/owl-galley/owl-img-4.jpg" alt="owl-galley">
+						</div>
+					</div>
+					<div class="item">
+						<div class="owl-img">
+							<img src="images/owl-galley/owl-img-5.jpg" alt="owl-galley">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<section class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="copyright-wrappre">
+					<p>Copyright © 2018 <strong>kurdi</strong> .All Right Reserved</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/smooth.js"></script>     
+	<script type="text/javascript">
+		$(window).scroll(function() {
+			if($(this).scrollTop() > 0) {
+				$( ".navbar-default" ).addClass("fix-nav");
+			} else {
+				$( ".navbar-default" ).removeClass("fix-nav");
+			}
+		});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#owl-demo").owlCarousel({
+				autoplay: true,
+				loop: true,
+				slideSpeed : 300,
+				paginationSpeed : 400,
+				items: 5,
+				margin:0,
+				nav: false,	
+				dots:true,	
+				responsiveClass:true,
+				responsive:{
+					1000:{
+						items:5
+					},
+					768:{
+						items:3
+					},
+					650:{
+						items:1
+					},
+					600:{
+						items:1
+					},
+					550:{
+						items:1
+					},
+					400:{
+						items:1,
+					},
+					460:{
+						items:1,
+					},
+					350:{
+						items:1,
+					},
+					300:{
+						items:1,
+					}
+				} 
+			});
+		});
+	</script>
+</body>
+</html>

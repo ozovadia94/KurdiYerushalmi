@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="../css/animate.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="../css/responsive.css" />
+	<title>Kurdi Yerushalmi</title>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">
+					<img src="../images/logo.png" alt="logo">
+				</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">home</a></li>
+					<li><a href="about.html">about</a></li>
+					<li><a href="gallery.html">gallery</a></li>
+					<li class="active"><a href="team.html">team</a></li>
+					<li><a href="contest.html">contest</a></li>
+					<li><a href="contact-us.html">contact</a></li>
+				</ul>  
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+	<section class="banner-wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="banner-detaile">
+					<h1>member Kurdi <strong>Yerushalmi band</strong></h1>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="band-members-wrapper single-member">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="band-member-img">
+						<img src="../images/team/01.jpg" alt="band-members">
+					</div>
+					<div class="single-member-details">
+						<h4>Yaniv Ovadia</h4>
+						<p>Comes from a traditional Kurdish Jerusalem family.  Performing on vocals, saz, baglama and zurna. He is the director of the traditional Kurdish dance ensemble “Young Kurdistan”, director of “Kurdi Yerushalmi” and is an active member of the Kurdish community in Israel.</p>
+						<a href="eliyahu-dagmi.html" class="btn-main">Next member</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact-form">
+		<div class="container">
+			<h1>contact us</h1>
+			<div class="row">
+				<div class="contact-form-wraper">
+					<form>
+						<div class="form-group">
+							<input type="text" placeholder="Full NAME" class="form-control">
+						</div>
+						<div class="form-group">
+							<input type="text" placeholder="BOOKING DATE" class="form-control">
+						</div>
+						<div class="form-group">
+							<input type="text" placeholder="MOBILE NO." class="form-control">
+						</div>
+						<div class="form-group">
+							<input type="text" placeholder="CITY" class="form-control">
+						</div>
+						<div class="form-group">
+							<textarea placeholder="MESSAGE" class="form-control"></textarea>
+						</div>
+						<div class="form-group">
+							<a href="#" class="btn-main">submit</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="copyright-wrappre">
+					<p>Copyright © 2018 <strong>krudi</strong> .All Right Reserved</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/smooth.js"></script>     
+	<script type="text/javascript">
+		$(window).scroll(function() {
+			if($(this).scrollTop() > 0) {
+				$( ".navbar-default" ).addClass("fix-nav");
+			} else {
+				$( ".navbar-default" ).removeClass("fix-nav");
+			}
+		});
+	</script>
+</body>
+</html>

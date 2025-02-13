@@ -10,29 +10,50 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<link rel="stylesheet" href="js/source/jquery.fancybox.css" />
 	<link rel="stylesheet" type="text/css" href="css/responsive.css" />
-	<link rel='icon' type="image/png" href="./images/logo.png" />
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/smooth.js"></script>
-	<script src="js/jquery.cycle2.min.js"></script>
-	<script src="js/source/jquery.fancybox.js"></script>
-	<script type="text/javascript" src="js/pages.js"></script>
 	<title>כורדי ירושלמי</title>
 </head>
 
-<body onload="load_func()">
-	<div id="page_name">index</div>
-	<div id="page_navbar"></div>
+<body>
+	<nav class="navbar navbar-default ">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+					data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="logo">
+				</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1" dir="rtl">
+				<ul class="nav navbar-nav ">
+					<li><a href="contact-us.html">צור קשר</a></li>
+					<li><a href="daholazurne.html">דהולה וזורנה</a></li>
+					<li><a href="team.html">חברי ההרכב</a></li>
+					<li><a href="gallery.html">גלריה</a></li>
+					<li><a href="about.html">אודות</a></li>
+					<li class="active"><a href="index.html">דף הבית</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+
+		</div><!-- /.container-fluid -->
+	</nav>
 
 	<section class="banner-container">
+		
+
 		<div class="slider-block banner02">
 			<div class="container-fuild">
 				<div class="col-md-6 col-sm-6">
 					<div class="banner-detail">
 
 						<h1>כורדי ירושלמי<span>הלהקה הכורדית</span></h1>
-						<p>כורדי ירושלמי פועלת לקידום ושימור המסורת, השירים, הפיוטים והלחנים המקוריים של יהדות
-							כורדיסטן
+						<p>כורדי ירושלמי פועלת לקידום ושימור המסורת, השירים, הפיוטים והלחנים המקוריים של יהדות כורדיסטן
 						</p>
 						<a href="about.html" class="btn-main">קרא עוד<span></span></a>
 					</div>
@@ -49,8 +70,7 @@
 					<div class="banner-detail">
 
 						<h1>כורדי ירושלמי<span>הלהקה הכורדית</span></h1>
-						<p>כורדי ירושלמי פועלת לקידום ושימור המסורת, השירים, הפיוטים והלחנים המקוריים של יהדות
-							כורדיסטן
+						<p>כורדי ירושלמי פועלת לקידום ושימור המסורת, השירים, הפיוטים והלחנים המקוריים של יהדות כורדיסטן
 						</p>
 						<a href="about.html" class="btn-main">קרא עוד<span></span></a>
 					</div>
@@ -65,7 +85,7 @@
 
 	<section class="about-container">
 		<div class="container">
-			<h1 class="second_title">על ההרכב כורדי ירושלמי</h1>
+			<h1>על ההרכב כורדי ירושלמי</h1>
 			<div class="row">
 				<div class="col-md-6 col-sm-6">
 					<div class="about-info" dir="rtl">
@@ -149,7 +169,12 @@
 			</div>
 		</div>
 	</section>
-	
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/smooth.js"></script>
+	<script src="js/jquery.cycle2.min.js"></script>
+	<script src="js/source/jquery.fancybox.js"></script>
 	<script type="text/javascript">
 		$(".banner-container").cycle({
 			slides: '>.slider-block',
@@ -159,14 +184,21 @@
 			next: '>.cycle-next',
 		});
 	</script>
-
+	<script type="text/javascript">
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 0) {
+				$(".navbar-default").addClass("fix-nav");
+			} else {
+				$(".navbar-default").removeClass("fix-nav");
+			}
+		});
+	</script>
 	<script type="text/javascript">
 		$(document).ready(function () {
 			$(".fancybox").fancybox({
 				'transitionIn': 'none',
 				'transitionOut': 'none'
 			});
-			$('#navbar').load("navbar.html");
 		});
 	</script>
 </body>
